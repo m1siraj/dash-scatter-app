@@ -20,8 +20,8 @@ app.layout = html.Div(
     [
         dbc.Row(
             [
-                dbc.Col(dcc.Graph(id='life-exp-vs-gdp', figure=fig), width=6),
-                dbc.Col(dcc.Graph(id='life-exp-vs-gdp-2', figure=fig), width=6)
+                dbc.Col(dcc.Graph(id='life-exp-vs-gdp', figure=fig), md=6),
+                dbc.Col(dcc.Graph(id='life-exp-vs-gdp-2', figure=fig), md=6)
             ]
         ), 
         dbc.Row(
